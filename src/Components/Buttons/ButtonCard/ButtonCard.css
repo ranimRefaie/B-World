@@ -1,0 +1,22 @@
+.btn-card,
+.btn-card-light {
+    /* width: 20.85656rem; */
+    width: 100%;
+    padding: 0.50rem;
+    border-radius: 0.12519rem;
+    background: #937DC2;
+    border: none;
+    color: #fff;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.50206rem;
+    cursor: pointer;
+}
+
+.btn-card-light {
+    color: #937DC2;
+    border: 1px solid #937DC2;
+    background-color: transparent;
+}
