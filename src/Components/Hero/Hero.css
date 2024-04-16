@@ -1,0 +1,85 @@
+.hero {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin: 3rem auto;
+    gap: 3rem;
+    align-items: center;
+}
+
+
+
+.col-1 h1 {
+    font-family: Inter;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.75rem;
+    color: #0F0F0F;
+}
+
+.col-1 p {
+    color: #0F0F0F;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem
+}
+
+.col-1 .btn-1 {
+    border-radius: 0.18775rem;
+    display: inline-flex;
+    height: 2.5rem;
+    padding: 0.62588rem;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25175rem;
+    cursor: pointer;
+    border: 1.001px solid #C689C6;
+    background-color: transparent;
+    color: #C689C6;
+}
+
+.col-1 .btn-2 {
+    color: #fff;
+    font-family: Inter;
+    font-size: 1.00138rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.50206rem;
+    display: flex;
+    padding: 0.75106rem 2.00275rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.12519rem;
+    background: #937DC2;
+    cursor: pointer;
+    border: none;
+}
+
+
+
+
+
+
+.col-2 img {
+    width: 23rem;
+    margin: auto !important;
+}
+
+@media screen and (max-width:992px) {
+    .hero {
+        width: 90%;
+        flex-direction: column-reverse;
+    }
+
+    .col-2 img {
+        width: 18rem;
+    }
+
+}

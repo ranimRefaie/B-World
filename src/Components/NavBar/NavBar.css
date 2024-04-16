@@ -1,0 +1,125 @@
+.nav-container {
+    max-width: 76.63169rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.06rem;
+    margin: 2.06rem auto;
+}
+
+.logo {
+    width: 20%;
+}
+
+.nav-items {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items ul {
+    display: flex;
+}
+
+.nav-items ul a {
+    margin-right: 2.19rem;
+    color: rgba(15, 15, 15, 1);
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.50206rem;
+    text-transform: capitalize;
+    text-decoration: none !important;
+}
+
+.btn-mode button {
+    display: flex;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+
+    color: #0F0F0F;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.50206rem;
+}
+
+button img {
+    width: 1.25rem;
+    margin-right: 0.25rem;
+}
+
+.toggler-icon {
+    cursor: pointer;
+    display: none;
+    margin-right: 0.5rem;
+
+}
+
+.toggler-icon div {
+    width: 25px;
+    height: 2px;
+    background-color: #C689C6;
+    margin: 5px 0px;
+}
+
+
+@media screen and (max-width:992px) {
+    .toggler-icon {
+        display: block;
+    }
+
+    .nav-items {
+        position: fixed;
+        background-color: #fff;
+        flex-direction: column;
+        text-align: start;
+        top: 0;
+        right: 0;
+        width: 60%;
+        height: 100%;
+        transform: translateX(100%);
+        transition: 0.5s ease;
+    }
+
+    ul {
+        flex-direction: column;
+        justify-content: center;
+        margin: 3.56rem 0;
+        padding: 0 1rem !important;
+
+    }
+
+    ul a {
+        color: black !important;
+        margin: 2rem 0;
+    }
+
+    .button-nav button {
+        margin: 0;
+    }
+}
+
+.nav-collapse {
+    transform: translateX(0%);
+}
+
+.toggle .line-1 {
+    transform: translate(-5px, 7px) rotate(-45deg);
+    background-color: #C689C6;
+
+}
+
+.toggle .line-2 {
+    opacity: 0;
+    background-color: #C689C6;
+}
+
+.toggle .line-3 {
+    transform: translate(-5px, -7px) rotate(45deg);
+    background-color: #C689C6;
+}

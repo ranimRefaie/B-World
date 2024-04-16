@@ -1,0 +1,96 @@
+.sec-know-us {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem auto 0 auto;
+    padding-bottom: 6.19rem;
+    border-bottom: 0.0625rem solid rgba(147, 125, 194, 0.60);
+}
+
+.form {
+    width: 35.625rem;
+}
+
+.form h1 {
+    color: #0F0F0F;
+    font-family: Inter;
+    font-size: 2.4375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3.06675rem;
+}
+
+.form p {
+    color: #0F0F0F;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.50206rem;
+}
+
+.form input {
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(147, 125, 194, 0.60);
+    padding-bottom: 0.5rem;
+    margin: 4.31rem 0 2.69rem 0;
+    outline: none;
+}
+
+input::placeholder {
+    color: rgba(147, 125, 194, 0.60);
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.50206rem;
+}
+
+.map {
+    width: 37.0625rem;
+}
+
+.map iframe {
+    width: 100%;
+    height: 29.25rem;
+    border: none;
+}
+
+.btn-sub {
+    width: 100%;
+    height: 3.125rem;
+    display: flex;
+    padding: 0.75106rem 2.00275rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.18775rem;
+    background: #937DC2;
+    cursor: pointer;
+    border: none;
+
+    color: #fff;
+    font-family: Inter;
+    font-size: 1.00138rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.50206rem;
+}
+
+@media screen and (max-width:992px) {
+    .sec-know-us {
+        flex-direction: column;
+    }
+
+    .map,
+    .form {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .form p {
+        margin: 0 1rem;
+    }
+}
