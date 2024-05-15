@@ -1,5 +1,8 @@
 import "./SectionKnowUs.css";
+import { useContext } from "react";
+import { ThemeContext } from "../../Contexts/Themes";
 const SectionKnowUs = () => {
+  const [{ theme, isDark }] = useContext(ThemeContext);
   return (
     <div className="sec-know-us">
       <div className="form">
@@ -10,8 +13,20 @@ const SectionKnowUs = () => {
           BWorld works with the must popular publishs just for your delight. If
           you are about books, you must to subscribe to our newsletter.
         </p>
-        <input type="text" placeholder="Your name" />
-        <input type="text" placeholder="Your e-mail" />
+        <input
+          type="text"
+          placeholder="Your name"
+          style={{
+            color: theme.color,
+          }}
+        />
+        <input
+          type="text"
+          placeholder="Your e-mail"
+          style={{
+            color: theme.color,
+          }}
+        />
         <button className="btn-sub">Subscribe</button>
       </div>
       <div className="map">

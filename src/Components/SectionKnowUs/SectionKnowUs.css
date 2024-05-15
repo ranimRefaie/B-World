@@ -12,7 +12,7 @@
 }
 
 .form h1 {
-    color: #0F0F0F;
+
     font-family: Inter;
     font-size: 2.4375rem;
     font-style: normal;
@@ -21,7 +21,7 @@
 }
 
 .form p {
-    color: #0F0F0F;
+
     text-align: justify;
     font-family: Inter;
     font-size: 1rem;
@@ -38,10 +38,11 @@
     padding-bottom: 0.5rem;
     margin: 4.31rem 0 2.69rem 0;
     outline: none;
+    background-color: transparent;
 }
 
 input::placeholder {
-    color: rgba(147, 125, 194, 0.60);
+    color: rgba(197, 194, 194, 0.7);
     font-family: Inter;
     font-size: 1rem;
     font-style: normal;

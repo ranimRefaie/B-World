@@ -1,10 +1,19 @@
 .hero {
+    position: relative;
+    top: 15vh;
     display: flex;
     width: 85%;
     justify-content: space-between;
-    margin: 3rem auto;
+    margin: 0 auto;
     gap: 3rem;
     align-items: center;
+}
+
+
+.hero .col-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 
@@ -15,11 +24,10 @@
     font-style: normal;
     font-weight: 700;
     line-height: 3.75rem;
-    color: #0F0F0F;
+
 }
 
 .col-1 p {
-    color: #0F0F0F;
     font-family: Inter;
     font-size: 1rem;
     font-style: normal;
@@ -28,8 +36,9 @@
 }
 
 .col-1 .btn-1 {
+    max-width: 10rem;
     border-radius: 0.18775rem;
-    display: inline-flex;
+    /* display: inline-flex; */
     height: 2.5rem;
     padding: 0.62588rem;
     justify-content: center;
@@ -46,6 +55,7 @@
 }
 
 .col-1 .btn-2 {
+    max-width: 12rem;
     color: #fff;
     font-family: Inter;
     font-size: 1.00138rem;
@@ -61,10 +71,6 @@
     cursor: pointer;
     border: none;
 }
-
-
-
-
 
 
 .col-2 img {
